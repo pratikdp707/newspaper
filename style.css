@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background: white;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+/* Newspaper name */
+.row {
+    margin: 20px;
+}
+
+.container-newspaper-name{
+    padding: 0 20px;
+}
+
+.follow-date-info{
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+
+.follow-icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.name-heading{
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+@media screen and (max-width:1200px){
+    .name-heading{
+      text-align: center;
+      font-size: 5rem;
+      font-family: 'Playfair Display', serif;
+      margin: 0;    
+    }
+    .follow-date-info{
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0;
+    }
+    .follow-icon{
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+    }
+    .container-newspaper-name{
+        padding: 0;
+    }
+}
+
+/* NEWS */
+.container-news{
+    margin: 10px;
+    padding: 0 15px;
+}
+
+.col{
+    padding: 5px;
+    text-align: justify;
+    text-justify:unset;
+}
+
+.inner-row{
+    margin: 0;
+}
+
+.inner-hr{
+    border: 1px solid #45526c;
+    margin: 2px;
+}
+
+h6{
+    margin: 0;
+    font-weight: bold;
+}
+
+.city-name{
+    font-size: 10px;
+    margin: 0;
+}
+
+.page{
+    font-size: 11px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+h2{
+    font-weight: bold;
+    text-align: justify;
+    text-justify: auto;
+}
